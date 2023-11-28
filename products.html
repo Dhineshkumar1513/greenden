@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/lib/index.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+" rel="stylesheet">
+</head>
+<body>
+    <!-- navigation bar -->
+    <nav
+      class="bg-green-100 flex items-center justify-between p-3 shadow-2xl sticky top-0"
+    >
+      <h1 class="text-3xl">Greenden</h1>
+      <ul class="flex gap-5">
+        <li>
+          <a href="./index.html" class="text-gray-400 hover:underline hover:text-black hidden md:flex"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a href="./products.html" class="text-gray-400 hover:underline hover:text-black hidden md:flex"
+            >product</a
+          >
+        </li>
+        <li>
+          <a href="./contact.html" class="hidden text-gray-400 hover:underline hover:text-black md:flex"
+            >Contact</a
+          >
+        </li>
+        <li class="flex md:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </li>
+      </ul>
+    </nav>
+    <div class="text-center">
+        <h1 class="font-bold text-4xl mt-6 mb-4">Our Products</h1>
+        <input type=" text" placeholder="Search for a products..." class=" border border-black p-2" style="width: 80%;"/>
+    </div>
+     <!-- product -->
+    <div class="grid grid-cols-2 m-10 gap-5 md:grid-cols-4  ">
+        <div class="">
+            <img src="./img/bestseller_1.jpg" alt="">
+            <p class="">Rose plant</p>
+            <p>₹20</p>
+        </div> 
+        <div>
+            <img src="./img/bestseller_2.jpg" alt="">
+            <p>Rose plant</p>
+            <p>₹20</p>
+        </div>
+        <div>
+            <img src="./img/bestseller_3.png" alt="">
+            <p>Rose plant</p>
+            <p>₹20</p>
+        </div>
+        <div>
+            <img src="./img/bestseller_4.png" alt="">
+            <p>Rose plant</p>
+            <p>₹20</p>
+        </div>
+        <div>
+            <img src="./img/bestseller_3.png" alt="">
+            <p>Rose plant</p>
+            <p>₹20</p>
+        </div>
+        <div>
+            <img src="./img/bestseller_4.png" alt="">
+            <p>Rose plant</p>
+            <p>₹20</p>
+        </div>
+        <div>
+             <img src="./img/bestseller_1.jpg" alt="">
+             <p>Rose plant</p>
+            <p>₹20</p>
+        </div>
+        <div>
+            <img src="./img/bestseller_2.jpg" alt="">
+            <p>Rose plant</p>
+            <p>₹20</p>
+        </div>
+    </div>
+    <!-- fooder -->
+    <div class="bg-green-100 p-10">
+        <h1 class="font-bold text-4xl mb-5">Greenden</h1>
+        <p>
+          The Standard chunk of Lorem ipsum used since the 1500s is reprodused
+          below for those interest
+        </p>
+        <h1 class="mt-5">@ 2021 Greenday.com</h1>
+      </div>
+</body>
+</html>
